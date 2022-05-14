@@ -22,11 +22,11 @@ div.nav a:hover {
     background-color: #005f73;
 }
 
-div.hero-msg h1 {
-    margin: 0 auto;
+#hero-msg h1 {
+    text-align: center;
 }
 
-div.hero-msg h4 {
+#hero-msg h4 {
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ div.join:hover {
     color: #b4e2d3;
 }
 
-div.h4 {
+#h4 {
     color: black;
 }
 
@@ -86,11 +86,11 @@ div.msg {
     background-color: #8a3812;
 }
 
-div.msg h2 {
+#msg h2 {
     color: black;
 }
 
-div.msg p {
+#msg p {
     color: black;
 }
 
@@ -104,13 +104,13 @@ div.footer h3 {
     text-decoration: underline;
 }
 
-div.footer a {
+#footer a {
     background-color: #8a3812;
     color: #ebb44e;
     text-decoration: none;
 }
 
-div.footer a:hover {
+#footer a:hover {
     background-color: #005f73;
     color: #b4e2d3;
     text-decoration: underline;
