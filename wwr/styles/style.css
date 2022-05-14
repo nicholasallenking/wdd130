@@ -95,9 +95,9 @@ h4 {
     color: #ebb44e;
 }
 
-.footer {
-    background-color: #8a3812;
-    color: #ebb44e;
+footer {
+    background-color: #005f73;
+    color: #b4e2d3;
 }
 
 footer h3 {
@@ -110,13 +110,13 @@ footer h3 a:hover {
 }
 
 footer a {
-    background-color: #8a3812;
-    color: #ebb44e;
+    background-color: #005f73;
+    color: #b4e2d3;
     text-decoration: none;
 }
 
 footer a:hover {
-    background-color: #005f73;
+    background-color: #c2943f;
     color: #b4e2d3;
     text-decoration: underline;
 }
