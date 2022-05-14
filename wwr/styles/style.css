@@ -1,3 +1,11 @@
+div.icon {
+    width: 80px
+}
+
+#hero-img {
+    width: 100%
+}
+
 div.content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +14,7 @@ div.content {
 div.nav a {
     text-align: center;
     color: black;
-    background-color: #8a3812;
+    text-decoration: none;
 }
 
 div.nav a:hover {
@@ -27,7 +35,7 @@ div.button-box {
 }
 
 div.home-title {
-    color: white;
+    color: #ebb44e;
 }
 
 div.main {
@@ -36,32 +44,38 @@ div.main {
 
 div.background {
     height: 725px;
-    background-color: #b4e2d3;
+    background-color: #8a3812;
+    color: black;
 }
 
 div.body {
-    background-color: #b4e2d3;
+    background-color: #8a3812;
 }
 
 div.header {
-    background-color: #8a3812;
+    background-color: #8a381298;
 }
 
 div.book {
     color: #ebb44e;
     background-color: #8a3812;
+    text-decoration: none;
 }
 
 div.book:hover {
-    background-color: #ebb44e;
+    background-color: #005f73;
+    color: #b4e2d3;
 }
 
 div.join {
     background-color: #8a3812;
+    color: #ebb44e;
+    text-decoration: none;
 }
 
 div.join:hover {
-    background-color: #ebb44e;
+    background-color: #005f73;
+    color: #b4e2d3;
 }
 
 div.h4 {
@@ -73,25 +87,31 @@ div.msg {
 }
 
 div.msg h2 {
-    color: white;
+    color: black;
 }
 
 div.msg p {
-    color: white;
+    color: black;
 }
 
 div.footer {
     background-color: #8a3812;
+    color: #ebb44e;
 }
 
 div.footer h3 {
     color: black;
+    text-decoration: underline;
 }
 
 div.footer a {
-    color: black;
+    background-color: #8a3812;
+    color: #ebb44e;
+    text-decoration: none;
 }
 
 div.footer a:hover {
-    color: white;
+    background-color: #005f73;
+    color: #b4e2d3;
+    text-decoration: underline;
 }
