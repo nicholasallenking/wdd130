@@ -5,6 +5,13 @@ div.content {
 
 div.nav a {
     text-align: center;
+    color: black;
+    background-color: #8a3812;
+}
+
+div.nav a:hover {
+    color: #b4e2d3;
+    background-color: #005f73;
 }
 
 div.hero-msg h1 {
@@ -29,6 +36,7 @@ div.main {
 
 div.background {
     height: 725px;
+    background-color: #b4e2d3;
 }
 
 div.body {
@@ -39,23 +47,8 @@ div.header {
     background-color: #8a3812;
 }
 
-div.nav a{
-    color: black;
-}
-
-div.nav a{
-    background-color: #8a3812;
-}
-
-div.nav a:hover {
-    color: #b4e2d3;
-}
-
-div.nav a:hover {
-    background-color: #005f73;
-}
-
 div.book {
+    color: #ebb44e;
     background-color: #8a3812;
 }
 
@@ -71,22 +64,34 @@ div.join:hover {
     background-color: #ebb44e;
 }
 
-#background {
-    background-color: #b4e2d3;
+div.h4 {
+    color: black;
 }
 
 div.msg {
     background-color: #8a3812;
 }
 
+div.msg h2 {
+    color: white;
+}
+
+div.msg p {
+    color: white;
+}
+
 div.footer {
     background-color: #8a3812;
 }
 
-div.h4 {
+div.footer h3 {
     color: black;
 }
 
-div.book {
-    color: #ebb44e;
+div.footer a {
+    color: black;
+}
+
+div.footer a:hover {
+    color: white;
 }
