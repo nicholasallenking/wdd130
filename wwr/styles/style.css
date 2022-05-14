@@ -3,7 +3,7 @@ div.icon {
 }
 
 #hero-img {
-    width: 90%
+    width: 100%
 }
 
 div.content {
@@ -23,7 +23,7 @@ div.nav a:hover {
 }
 
 div.hero-msg h1 {
-    text-align: center;
+    margin: 0 auto;
 }
 
 div.hero-msg h4 {
