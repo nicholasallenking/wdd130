@@ -19,6 +19,10 @@ div.button-box {
     text-align: center;
 }
 
+div.home-title {
+    color: white;
+}
+
 div.main {
     text-align: center;
 }
@@ -35,8 +39,20 @@ div.header {
     background-color: #8a3812;
 }
 
+div.nav a{
+    color: black;
+}
+
+div.nav a{
+    background-color: #8a3812;
+}
+
 div.nav a:hover {
-    background-color: #ebb44e;
+    color: #b4e2d3;
+}
+
+div.nav a:hover {
+    background-color: #005f73;
 }
 
 div.book {
@@ -65,4 +81,12 @@ div.msg {
 
 div.footer {
     background-color: #8a3812;
+}
+
+div.h4 {
+    color: black;
+}
+
+div.book {
+    color: #ebb44e;
 }
