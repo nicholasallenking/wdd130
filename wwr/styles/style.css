@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titillium+Web:wght@300&display=swap');
+
 .icon {
     width: 80px
 }
@@ -37,6 +39,7 @@ div.button-box {
 
 .home-title {
     color: #ebb44e;
+    font-family: "Gloria Hallelujah";
 }
 
 main section {
@@ -85,6 +88,7 @@ h4 {
 
 .msg {
     background-color: #8a3812;
+    font-family: "Gloria Hallelujah";
 }
 
 .msg h2 {
