@@ -148,7 +148,7 @@ footer {
     background-color: #005f73;
     color: #b4e2d3;
     padding: 25px 50px;
-    margin: 200px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -181,5 +181,5 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid #8a3812;
+    border: 10px solid black;
 }
