@@ -30,23 +30,25 @@ body {
     margin: 0;
 }
 
-.topnav {
+nav {
+    display: flex;
     line-height: 3em;
     text-align: left;
     font-size: 1.2em;
+    justify-content: space-around;
 }
 
-.topnav a {
+nav a {
     float: left;
-    display: block;
+    display: flex;
     text-align: center;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 18px 20px;
+    padding: 5px;
 }
 
-.topnav a:hover {
+nav a:hover {
     color: #A33B20;
     background-color: #F8F2DC; 
 }
@@ -57,7 +59,7 @@ a:hover {
 }
 
 #logo_link {
-    padding-top: 10px;
+    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -75,6 +77,21 @@ a:hover {
     padding: 15px;
 }
 
+.column2 {
+    background-color: #A6A57A;
+    text-align: right;
+    padding: 20px;
+}
+
+footer {
+    border: 2px solid black;
+}
+
 .link-icon {
-    padding-top: 15px;
+    padding: 0px;
+}
+
+footer .link-icon img {
+    padding: 20px;
+
 }
