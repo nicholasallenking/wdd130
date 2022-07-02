@@ -24,28 +24,24 @@
 .header {
     background-color: #A47963;
     text-align: center;
-    padding: 20px;
-}
-body {
-    margin: 0;
+    padding: 10px;
 }
 
+
 nav {
-    display: flex;
-    line-height: 3em;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
     justify-content: space-around;
 }
 
 nav a {
     float: left;
-    display: flex;
     text-align: center;
     color: black;
     text-decoration: none;
     font-weight: bold;
     padding: 5px;
+    border: 1px solid black;
 }
 
 nav a:hover {
@@ -53,13 +49,8 @@ nav a:hover {
     background-color: #F8F2DC; 
 }
 
-a:hover {
-    color: #A33B20;
-    background-color: #F8F2DC;
-}
-
 #logo_link {
-    padding-top: 5px;
+    padding: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -71,27 +62,30 @@ a:hover {
 }
 
 .column1 {
+    grid-area: "column1";
     float: left;
     background-color: #A6A57A;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    border: 3px solid black;
 }
 
 .column2 {
+    grid-area: "column2";
     background-color: #A6A57A;
-    text-align: right;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {
-    border: 2px solid black;
+    float: none;
+    border: 3px solid black;
+    padding: 10px;
 }
 
 .link-icon {
-    padding: 0px;
+    padding: 5px;
 }
 
 footer .link-icon img {
     padding: 20px;
-
 }
