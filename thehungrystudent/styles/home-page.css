@@ -1,0 +1,19 @@
+:root {
+    --heading-font: "Gentium Plus";
+    --paragraph-font: Montserrat, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #A47963;
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    align-items: center;
+}
+
+.banner {
+    background-color: #A6A57A;
+    text-align: center;
+}
