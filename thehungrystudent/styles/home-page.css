@@ -27,6 +27,10 @@
     padding: 10px;
 }
 
+.row {
+  border: 3px solid black;
+}
+
 /* Dropdown Button */
 .dropbtn {
     float: left;
