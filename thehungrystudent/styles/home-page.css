@@ -39,7 +39,6 @@
 }
 
 .dropbtn {
-    float: left;
     background-color: #A47963;
     color: white;
     padding: 16px;
@@ -74,13 +73,17 @@
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #A6A57A;}
 
+.row {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 .logo-space {
   text-align: center;
 }
 
 .logo {
-  padding: 10px;
-  text-align: center;
+  padding: 5px;
 }
 
 .text-box {
