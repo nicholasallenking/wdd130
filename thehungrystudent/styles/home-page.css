@@ -135,3 +135,7 @@ footer {
 footer .link-icon img {
     padding: 20px;
 }
+
+.site-plan-link {
+  text-align: right;
+}
