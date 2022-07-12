@@ -1,15 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Montserrat:wght@200&display=swap');
+
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color: #A47963   ;
   --secondary-color: #A6A57A ;
   --accent1-color: #A33B20;
   --accent2-color: #F8F2DC;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: "Gentium Plus";
   --paragraph-font: Montserrat, Helvetica, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
@@ -19,6 +18,14 @@
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
+}
+
+.h2 {
+  font-family: "Gentium Plus";
+}
+
+.p {
+  font-family: Montserrat, Helvetica, sans-serif;
 }
 
 .header {
@@ -31,7 +38,6 @@
   border: 3px solid black;
 }
 
-/* Dropdown Button */
 .dropbtn {
     float: left;
     background-color: #A47963;
@@ -41,14 +47,12 @@
     border: none;
     cursor: pointer;
   }
-  
-  /* The container <div> - needed to position the dropdown content */
+
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
-  /* Dropdown Content (Hidden by Default) */
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -57,8 +61,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
-  /* Links inside the dropdown */
+
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -66,14 +69,9 @@
     display: block;
     transition: 0.3s;
   }
-  
-  /* Change color of dropdown links on hover */
+ 
   .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #A6A57A;}
 
 .logo-space {
@@ -95,6 +93,12 @@
 
 .text-box h2 {
     font-size: 42px;
+    font-family: "Gentium Plus";
+}
+
+.text-box p {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .text-box2 {
@@ -102,6 +106,15 @@
   background-color: #A6A57A;
   text-align: left;
   padding: 10px;
+}
+
+.text-box2 h2 {
+  font-family: "Gentium Plus";
+}
+
+.text-box2 p {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .column2 {
