@@ -110,6 +110,11 @@
   padding: 10px;
 }
 
+.text-box2 h1 {
+  font-family: "Gentium Plus";
+  font-weight: bold;
+}
+
 .text-box2 h2 {
   font-family: "Gentium Plus";
 }
