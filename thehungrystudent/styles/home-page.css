@@ -75,12 +75,11 @@
   .dropdown:hover .dropbtn {background-color: #A6A57A;}
 
 .logo-space {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-  display: flex;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -118,8 +117,9 @@
 }
 
 .column2 {
-    background-color: #A6A57A;
-    padding: 10px;
+  float: none;
+  background-color: #A6A57A;
+  padding: 10px;
 }
 
 footer {
