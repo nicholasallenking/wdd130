@@ -28,12 +28,6 @@
   font-family: Montserrat, Helvetica, sans-serif;
 }
 
-.header {
-    background-color: #A47963;
-    text-align: center;
-    padding: 10px;
-}
-
 .row {
   border: 3px solid black;
 }
@@ -79,6 +73,7 @@
 
 .logo {
   padding: 5px;
+  width: 150px;
 }
 
 .text-box {
@@ -143,7 +138,6 @@
 
 footer {
     border: 3px solid black;
-    padding: 10px;
 }
 
 .link-icon {
@@ -151,11 +145,12 @@ footer {
 }
 
 footer .link-icon img {
-    padding: 20px;
+    padding: 10px;
 }
 
 .site-plan-link {
   text-align: center;
+  padding: 10px;
 }
 
 #stressedimg {
