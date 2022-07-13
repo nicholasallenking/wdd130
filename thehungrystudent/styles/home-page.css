@@ -130,6 +130,12 @@
   padding: 10px;
 }
 
+.column3 {
+  float: none;
+  background-color: #A6A57A;
+  padding: 10px;
+}
+
 footer {
     float: none;
     border: 3px solid black;
