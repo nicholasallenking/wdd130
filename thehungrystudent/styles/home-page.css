@@ -73,11 +73,6 @@
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #A6A57A;}
 
-.row {
-  display: grid;
-  grid-template-columns: auto;
-}
-
 .logo-space {
   text-align: center;
 }
@@ -161,4 +156,16 @@ footer .link-icon img {
 
 .site-plan-link {
   text-align: center;
+}
+
+#stressedimg {
+  padding-left: 150px;
+  float: left;
+  width: 500px;
+  height: 313px;
+}
+
+#suppliesimg {
+  width: 500px;
+  height: 313px;
 }
