@@ -86,9 +86,8 @@
 }
 
 .text-box2 {
-  float: none;
   background-color: #A6A57A;
-  text-align: left;
+  text-align: center;
   padding: 10px;
 }
 
@@ -102,6 +101,26 @@
 }
 
 .text-box2 p {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.text-box3 {
+  background-color: #A6A57A;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-box3 h1 {
+  font-family: "Gentium Plus";
+  font-weight: bold;
+}
+
+.text-box3 h2 {
+  font-family: "Gentium Plus";
+}
+
+.text-box3 p {
   font-family: Montserrat, Helvetica, sans-serif;
   font-weight: bold;
 }
