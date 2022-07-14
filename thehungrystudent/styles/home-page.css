@@ -68,19 +68,18 @@
   width: 150px;
 }
 
-.text-box {
-    float: left;
+.text-home {
     background-color: #A6A57A;
     text-align: center;
     padding: 10px;
 }
 
-.text-box h2 {
+.text-home h2 {
     font-size: 42px;
     font-family: "Gentium Plus";
 }
 
-.text-box p {
+.text-home p {
   font-family: Montserrat, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -127,22 +126,22 @@
   font-weight: bold;
 }
 
-.text-box3 {
+.text-cook {
   background-color: #A6A57A;
   text-align: center;
   padding: 10px;
 }
 
-.text-box3 h1 {
+.text-cook h1 {
   font-family: "Gentium Plus";
   font-weight: bold;
 }
 
-.text-box3 h2 {
+.text-cook h2 {
   font-family: "Gentium Plus";
 }
 
-.text-box3 p {
+.text-cook p {
   font-family: Montserrat, Helvetica, sans-serif;
   font-weight: bold;
 }
